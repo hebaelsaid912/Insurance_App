@@ -1,0 +1,66 @@
+<resources>
+    <string name="signUp">Sign Up</string>
+    <string name="password">Password</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="day">Day</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="signIn">Sign In</string>
+    <string name="forget"> Forget E-Mail Adress </string>
+    <string name="forgettext">Enter your mobile phone number and we will SMS you with your email</string>
+    <string name="phonenumber">Mobile Number</string>
+    <string name="send">Send</string>
+    <string name="home">Sign Up, to have a moments of caring future</string>
+    <string name="home2">Already enjoy with this moment, Log In</string>
+    <string name="flatnumber">Flat Number</string>
+    <string name="buildingadress">Building Adress</string>
+    <string name="telephone">Telephone  Number</string>
+    <string name="roadadress">Road Adress</string>
+    <string name="blockadress">Block Adress</string>
+    <string name="cityname">Name of city</string>
+    <string name="CPR">CPR</string>
+    <string name="user_profile">User Profile</string>
+    <string-array name="years">
+        <item>2020</item>
+        <item>2019</item>
+        <item>2010</item>
+        <item>2019</item>
+        <item>2019</item>
+        <item>2019</item>
+        <item>2019</item>
+        <item>2019</item>
+        <item>2019</item>
+        <item>2019</item>
+        <item>2019</item>
+        <item>2019</item>
+        <item>2019</item>
+        <item>2019</item>
+        <item>2019</item>
+        <item>2019</item>
+    </string-array>
+    <string name="nav_header_title">Ali El-Zenary</string>
+    <string name="nav_header_subtitle">AliElzenary@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="carClaim">Car Claim</string>
+    <string name="PolicyNumber">Policy Number:</string>
+    <string name="HealthClaim">Health Claim</string>
+    <string name="travelClaim">Travel Claim</string>
+    <string name="ClaimSummary">Claim Summary</string>
+    <string name="fireClaim">Fire Claim</string>
+    <string name="succClaim">Thank You, Your claim has been sent Successfully.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_nav_drower">NavDrower</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="AppName">Insurance App</string>
+
+</resources>

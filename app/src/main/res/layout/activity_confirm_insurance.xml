@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_span="10"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:layout_gravity="center_vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quotation Price"
+                android:textSize="25sp"
+                android:gravity="left"
+                android:layout_marginTop="10dp"
+                android:textColor="#082453"
+                android:padding="5dp"
+                android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_gravity="center_vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/purple_500"
+                    android:layout_weight="3"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Price"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:layout_centerHorizontal="true"
+                        android:padding="5dp"
+                        />
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/CarInsurancePrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="price "
+                    android:textSize="20sp"
+                    android:textColor="@color/purple_500"
+                    android:layout_weight="5"
+                    android:padding="5dp"
+                    android:background="@drawable/line"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#C6C8CC"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Customer Agreement : "
+                    android:textSize="20sp"
+                    android:textColor="@color/purple_500"
+                    android:padding="5dp"
+                    android:layout_marginLeft="40dp"
+                    android:textStyle="bold"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <CheckBox
+                        android:id="@+id/AddCarInsurance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="- You may not use this application to engage in
+any illegal activity.\n-All personal information should be true, including phone number.\n -
+Price is stable, not able to change.\n -This account should be using only by you."
+                        android:textSize="20sp"
+                        android:textColor="@color/purple_500"
+                        android:padding="5dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Proceed"
+                android:onClick="Go_ResultActivity"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

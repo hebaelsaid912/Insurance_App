@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:text="Choose Insurance Options"
+                android:textColor="@color/purple_500"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Insurance Package Type:"
+                android:textColor="@color/purple_500"
+                android:textSize="20dp" />
+
+            <Spinner
+                android:id="@+id/Spinner_PackageType_TravelCompare"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:textSize="25sp"
+                android:textColor="#082453"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:padding="5dp"
+                android:background="@drawable/shapeicon"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Travel Name:"
+                android:textColor="@color/purple_500"
+                android:textSize="20sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+                <EditText
+                    android:id="@+id/TravelNameCompare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shapeicon"
+                    android:inputType="text"
+                    android:textColor="#082453"
+                    android:textSize="20sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Travel Passport NO:"
+                android:textColor="@color/purple_500"
+                android:textSize="20sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+                <EditText
+                    android:id="@+id/TravelPassportNumCompare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shapeicon"
+                    android:inputType="text"
+                    android:textColor="#082453"
+                    android:textSize="20sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Destination Country:"
+                android:textColor="@color/purple_500"
+                android:textSize="20dp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+                <EditText
+                    android:id="@+id/DestinationCountryCompare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shapeicon"
+                    android:inputType="text"
+                    android:textColor="#082453"
+                    android:textSize="20sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+           <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Travel Date:"
+                android:textColor="@color/purple_500"
+                android:textSize="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+                <Spinner
+                    android:id="@+id/travelDay_Compare"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textColor="#082453"
+                    android:background="@drawable/shapeicon"
+                    android:padding="10dp"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    />
+                <Spinner
+                    android:id="@+id/travelMonth_Compare"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textColor="#082453"
+                    android:background="@drawable/shapeicon"
+                    android:padding="10dp"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    />
+                <Spinner
+                    android:id="@+id/travelYear_Compare"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textColor="#082453"
+                    android:background="@drawable/shapeicon"
+                    android:padding="10dp"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Return Date:"
+                android:textColor="@color/purple_500"
+                android:textSize="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+                <Spinner
+                    android:id="@+id/returnDay_Compare"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textColor="#082453"
+                    android:background="@drawable/shapeicon"
+                    android:padding="10dp"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    />
+                <Spinner
+                    android:id="@+id/returnMonth_Compare"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textColor="#082453"
+                    android:background="@drawable/shapeicon"
+                    android:padding="10dp"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    />
+                <Spinner
+                    android:id="@+id/returnYear_Compare"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textColor="#082453"
+                    android:background="@drawable/shapeicon"
+                    android:padding="10dp"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    />
+            </LinearLayout>
+            <Button
+                android:id="@+id/TravelCompare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get Comapre"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

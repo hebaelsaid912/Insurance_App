@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_gravity="center_vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:text="Compare Quotations Price"
+                android:textColor="@color/purple_500"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/purple_500"
+                    android:layout_weight="3"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Al Ahlia"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:layout_centerHorizontal="true"
+                        android:padding="5dp"
+                        />
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/AhliaPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="price "
+                    android:textSize="20sp"
+                    android:textColor="@color/purple_500"
+                    android:layout_weight="5"
+                    android:padding="5dp"
+                    android:background="@drawable/line"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/purple_500"
+                    android:layout_weight="3"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="AXA"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:layout_centerHorizontal="true"
+                        android:padding="5dp"
+                        />
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/AxAPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Price "
+                    android:textSize="20sp"
+                    android:textColor="@color/purple_500"
+                    android:layout_weight="5"
+                    android:padding="5dp"
+                    android:background="@drawable/line"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/purple_500"
+                    android:layout_weight="3"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Takaful"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:layout_centerHorizontal="true"
+                        android:padding="5dp"
+                        />
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/TakafulPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Price "
+                    android:textSize="20sp"
+                    android:textColor="@color/purple_500"
+                    android:layout_weight="5"
+                    android:padding="5dp"
+                    android:background="@drawable/line"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/purple_500"
+                    android:layout_weight="3"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Gulf Union"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:layout_centerHorizontal="true"
+                        android:padding="5dp"
+                        />
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/GulfPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Price "
+                    android:textSize="20sp"
+                    android:textColor="@color/purple_500"
+                    android:layout_weight="5"
+                    android:padding="5dp"
+                    android:background="@drawable/line"
+                    />
+
+            </LinearLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ok"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:onClick="BackAgain"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

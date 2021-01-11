@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_span="10"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thank you, Your request is completed!"
+            android:textSize="25dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textColor="#082453"
+            android:padding="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reference Policy Number :"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            android:textColor="#082453"
+            android:gravity="center_horizontal"
+            android:padding="5dp"/>
+        <TextView
+            android:id="@+id/CodePolicyNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CIn01234567891011"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:textColor="#082453"
+            android:padding="5dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Other  Insurance"
+            android:onClick="Go_AgainInsurance"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:onClick="Go_HomePage"/>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

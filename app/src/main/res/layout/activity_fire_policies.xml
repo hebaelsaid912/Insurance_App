@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirePolicies"
+    android:background="@color/white"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Fire Policies"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <ListView
+        android:id="@+id/listfire"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        tools:listitem="@layout/list_item_fire"
+        />
+    </LinearLayout>
+    <!-- Empty view for the list -->
+    <!-- Empty view for the list -->
+
+    <RelativeLayout
+        android:id="@+id/empty_view_fire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <ImageView
+            android:id="@+id/empty_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/empty"
+            android:layout_centerInParent="true"
+            />
+        <TextView
+            android:id="@+id/empty_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-medium"
+            android:paddingTop="20dp"
+            android:text="There is no policies yet"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/purple_500"
+            android:layout_below="@+id/empty_img"/>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

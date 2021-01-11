@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.staticapp"
+    android:targetSandboxVersion="1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/AppName"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StaticApp"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ContactCompanies"></activity>
+        <activity android:name=".AboutCompanies" />
+        <activity android:name=".AboutCompany_4" />
+        <activity android:name=".AboutCompany_3" />
+        <activity android:name=".AboutCompany_2" />
+        <activity android:name=".AboutCompany_1" />
+        <activity android:name=".AboutCompany" />
+        <activity android:name=".Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".confirmInsurance" />
+        <activity android:name=".ResultInsuranceDone" />
+        <activity android:name=".Fire_Details" />
+        <activity android:name=".Travel_Details" />
+        <activity android:name=".Health_Details" />
+        <activity android:name=".Car_Details" />
+        <activity android:name=".ResultCompare" />
+        <activity android:name=".CompareQuotationsPrice" />
+        <activity android:name=".Compare_Travel" />
+        <activity android:name=".Compare_Health" />
+        <activity android:name=".Compare_Fire" />
+        <activity android:name=".Compare_Car" />
+        <activity android:name=".Company_4" />
+        <activity android:name=".Company_3" />
+        <activity android:name=".Company_2" />
+        <activity android:name=".Company_1" />
+        <activity android:name=".CompaniesCompare" />
+        <activity android:name=".FireInsurance" />
+        <activity android:name=".TravelInsurance" />
+        <activity android:name=".HealthInsurance" />
+        <activity android:name=".CarInsurance" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".HealthPolicies" />
+        <activity android:name=".FirePolicies" />
+        <activity android:name=".TravelPolicies" />
+        <activity android:name=".CarPolicies" />
+        <activity android:name=".SuccessfullyClaim" />
+        <activity android:name=".Recent" />
+        <activity android:name=".FireClaim" />
+        <activity android:name=".TravelClaim" />
+        <activity android:name=".HealthClaim" />
+        <activity android:name=".CarClaim" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".FirstActivity" />
+        <activity android:name=".forget_Email" />
+        <activity android:name=".login" />
+        <activity android:name=".signup" />
+    </application>
+
+</manifest>
