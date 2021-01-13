@@ -1,14 +1,17 @@
 # Insurance_App
-## Here are some details about  app registration:
-application is for an insurance company.
-it allows the user to register in it by entering some required data about the user such as (name, mobile phone number, landline number, password .... ). In order to allow the user to benefit from the services of this application, they must log in by entering their email and password to be more than five characters.
+## About app services:
+Application is for an insurance company.
+### The app contain 
+- Full registeration containing of signin, signup and forget email. 
+- Profile to show user information.
+- Compare between companies prices for car, health, travel or fire insurances using user inputs.
+- Applying for new insurance by entering some required data in the form for car, health, travel or fire insurances.
+- All applied insurances display in recent activity.
+- User can claiming insurances useing some inputs for example accident photo.
+- More information about companies.
 ## App structure:
-- Some activities using Android Xml
-- Activate all activities using Java
-## App services:
-- Apply for insurance for cars, health, building and travel by entering some required data in the form
-- Show all insurances that the user subscribes to
-- Claiming insurance by entering some of the required data in the form
+- Some activities using Android Xml.
+- Actioning for all activities using Java.
 ## Some hints:
 - Android gradle plugin version 4.1.1 and gradle version 6.5
 - Compile sdk version 29(API 29: Android 10.0(Q))
